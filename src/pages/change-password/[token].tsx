@@ -10,7 +10,6 @@ const ChangePassword: NextPage<{token: string}>= ({token})=>{
 
 // this could also be used we get the same result
 // ChangePassword.getInitialProps =({query})=>{
-    // dummy
 //     return {
 //         token: query?.token as string
 //     }
